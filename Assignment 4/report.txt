@@ -1,0 +1,28 @@
+To Run: 
+    - The following have been implemented. Can implement the same as below
+    - Note: change seed variable value to chnage the valude of seed.
+
+Namans-MacBook-Air:Assignment 4 namanjain$ python SimulateDist.py 10 bernoulli 0.3
+Samples: [0, 1, 1, 0, 0, 1, 0, 0, 0, 1]
+Namans-MacBook-Air:Assignment 4 namanjain$ python SimulateDist.py 10 binomial 5 0.3
+Samples: [2, 2, 1, 3, 1, 2, 2, 1, 1, 1]
+Namans-MacBook-Air:Assignment 4 namanjain$ python SimulateDist.py 10 geometric 0.3
+Samples: [2, 1, 3, 4, 5, 1, 2, 2, 4, 3]
+Namans-MacBook-Air:Assignment 4 namanjain$ python SimulateDist.py 10 neg-binomial 5 0.3
+Samples [15, 12, 17, 17, 7, 23, 16, 19, 15, 22]
+Namans-MacBook-Air:Assignment 4 namanjain$ python SimulateDist.py 10 poisson 5
+Samples: [4, 3, 3, 6, 5, 2, 8, 5, 5, 3]
+Namans-MacBook-Air:Assignment 4 namanjain$ python SimulateDist.py 10 arb-discrete 0.3 0.3
+Samples: [1, 0, 0, 1, 0, 1, 0]
+Namans-MacBook-Air:Assignment 4 namanjain$ python SimulateDist.py 10 arb-discrete 0.3 0.3 0.3 0.1
+Samples: [1, 0, 0, 2, 1, 0, 2, 1, 2, 0]
+Namans-MacBook-Air:Assignment 4 namanjain$ python SimulateDist.py 10 arb-discrete 0.3 0.3 0.4
+Samples: [1, 0, 0, 2, 1, 0, 2, 1, 2, 0]
+Namans-MacBook-Air:Assignment 4 namanjain$ python SimulateDist.py 3 uniform 10 20
+Samples: [13.34214377005172, 12.101909238181683, 11.82610575013431]
+Namans-MacBook-Air:Assignment 4 namanjain$ python SimulateDist.py 3 exponential 10
+Samples: [0.04067875476537686, 0.023596403844855292, 0.02016396453144486]
+Namans-MacBook-Air:Assignment 4 namanjain$ python SimulateDist.py 3 gamma 3 3
+Samples: [0.28146374380559, 0.7479618695421953, 1.2501446188593122]
+Namans-MacBook-Air:Assignment 4 namanjain$ python SimulateDist.py 3 normal 5 10
+Samples: [8.664703252126255, 19.344492984764102, 5.583788779725449]
